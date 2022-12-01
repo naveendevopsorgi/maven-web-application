@@ -14,7 +14,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/bannu.jpg" alt="" width="100">
+		<img src="images/bannu.jpg" alt="" width="500">
 	</span>
 	<span style="font-weight: bold;">
 		kusumanchi, 
