@@ -2,6 +2,8 @@ node{
     
     def mavenHome = tool name: "maven3.8.6"
     timestamps {
+    echo "The Build Number is: " $(env.BUILD_NUMBER)
+        
 
     stage('Checkout Code'){
         git branch: 'development', credentialsId: 'github', url: 'https://github.com/naveendevopsorgi/maven-web-application.git'
