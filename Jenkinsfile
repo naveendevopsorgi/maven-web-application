@@ -2,7 +2,7 @@ node{
     
     def mavenHome = tool name: "maven3.8.6"
     timestamps {
-    echo "The Build Number is: " $(env.BUILD_NUMBER)
+    echo "The Build Number is: $(env.BUILD_NUMBER) "
         
 
     stage('Checkout Code'){
