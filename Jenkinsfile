@@ -6,9 +6,7 @@ node{
         echo "The jenkins URL is: ${env.JENKINS_URL} "
         echo "The workspace is: ${env.WORKSPACE} "
         echo "  The Tag date is: ${env.TAG_DATE} "
-     properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([cron('''* * * * *
-'''), pollSCM('* * * * *')])])
-        
+     
 
     stage('Checkout Code'){
         git branch: 'development', credentialsId: 'github', url: 'https://github.com/naveendevopsorgi/maven-web-application.git'
