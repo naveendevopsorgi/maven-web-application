@@ -5,6 +5,7 @@ node{
         echo "The Build Number is: ${env.BUILD_NUMBER} "
         echo "The jenkins URL is: ${env.JENKINS_URL} "
         echo "The workspace is: ${env.WORKSPACE} "
+        echo "  The Tag date is: ${env.TAG_DATE} "
         
 
     stage('Checkout Code'){
