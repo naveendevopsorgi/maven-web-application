@@ -21,7 +21,7 @@
 		khammam,
 		Telangana,
 		+91 8184899742,
-		naveenarvapalli04@gmail.com
+		naveena81848@gmail.com
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
 	</span>
